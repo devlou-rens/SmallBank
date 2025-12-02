@@ -3,7 +3,7 @@ public class BankAccount{
     private double balance;
     private int PIN = 1234;
 
-    public BankAccount(String userName, double balance){
+public BankAccount(String userName, double balance){
         this.userName = userName;
         this.balance = balance;
         }
@@ -17,7 +17,6 @@ public class BankAccount{
                 return false;
             }
         }
-
 
    // pag dagdag sin kwarta
     public void deposite(double amount){

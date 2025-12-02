@@ -56,7 +56,7 @@ public class UserInput{
     } else {
             System.out.println("Access Denied!");
         }
-         scr.close();
+        scr.close();
     }
     
 }
